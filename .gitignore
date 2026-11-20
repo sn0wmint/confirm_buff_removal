@@ -1,0 +1,5 @@
+# Local editor settings
+.vscode/
+
+# Release zips made for uploading
+*.zip

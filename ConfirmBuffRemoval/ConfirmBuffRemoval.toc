@@ -1,0 +1,10 @@
+## Interface: 16001
+## Title: Confirm Buff Removal
+## Notes: Asks "Are you sure?" before a right-click removes one of your buffs.
+## Author: sn0wmint
+## Version: 1.0.0
+## IconTexture: Interface\Icons\Spell_Holy_WordFortitude
+## X-License: MIT
+## X-Website: https://github.com/sn0wmint/confirm_buff_removal
+
+ConfirmBuffRemoval.lua
