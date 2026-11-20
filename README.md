@@ -4,12 +4,15 @@ A small World of Warcraft addon for **WoW Forever** that stops you from removing
 
 Normally, right-clicking one of your buffs removes it straight away. With this addon you get a dialog first:
 
-> Are you sure you want to remove **Power Word: Fortitude**?  
-> [Accept] [Cancel]
+![The confirmation dialog: "Are you sure you want to remove Well Fed?" with Accept and Cancel buttons](screenshots/dialog.png)
 
 The buff is only removed if you click **Accept**. Escape cancels, and Enter does nothing, so a stray key press can't remove it either.
 
 Only your buffs are protected. Debuffs and weapon enchants behave as usual.
+
+Tooltips still work: hover over a protected buff to see what it does and how long it has left.
+
+![In game: the Well Fed tooltip under the buff bar, with the confirmation dialog open](screenshots/in-game.png)
 
 ## When it takes a second right-click
 
@@ -43,11 +46,12 @@ All of the code is in [`ConfirmBuffRemoval.lua`](ConfirmBuffRemoval/ConfirmBuffR
 ConfirmBuffRemoval/              The addon itself: the folder you install.
     ConfirmBuffRemoval.toc       Tells the game the addon's name, version and files.
     ConfirmBuffRemoval.lua       All of the addon's code.
+screenshots/                     Images shown in this README. Not part of the addon.
 CHANGELOG.md                     What changed in each version.
 LICENSE                          The MIT license.
 README.md                        This file.
 .editorconfig                    Indentation and line-ending settings for editors.
-.gitattributes                   Keeps line endings consistent in git.
+.gitattributes                   Line-ending and binary-file settings for git.
 .gitignore                       Files git should ignore.
 ```
 

@@ -1,3 +1,6 @@
 # Store every text file with LF line endings, whichever system it was
 # edited on. Git works out by itself which files are text.
 * text=auto eol=lf
+
+# Images are binary: git must never change their bytes or diff them as text.
+*.png binary
