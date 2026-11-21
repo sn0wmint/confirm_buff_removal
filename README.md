@@ -1,6 +1,6 @@
 # Confirm Buff Removal
 
-<img src="screenshots/logo.png" alt="Logo: a mouse pointer on a buff, and a dialog asking 'Remove this buff?' with Accept and Cancel buttons" width="160" align="right">
+<img src="screenshots/logo.png" alt="Logo: a mouse pointer on a buff, and a dialog asking 'Remove buff?' with Accept and Cancel buttons" width="160" align="right">
 
 A small World of Warcraft addon for **WoW Forever** that stops you from removing a buff by accident.
 
