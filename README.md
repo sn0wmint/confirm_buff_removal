@@ -24,9 +24,20 @@ Druid forms, Stealth and Shadowform always work this way, even out of combat, be
 
 ## Installation
 
-1. Download this repository (**Code > Download ZIP**) and unzip it.
+Pick **one** of the two ways below. Option A is the easiest.
+
+### Option A: with the CurseForge app (easiest)
+
+1. Install the free [CurseForge app](https://www.curseforge.com/download/app) and open it.
+2. Choose **World of Warcraft**, then make sure **Forever** is selected as the game version (not Retail or Classic).
+3. Search for **Confirm Buff Removal** and click **Install**.
+4. Start (or fully restart) WoW. The app also keeps the addon updated for you.
+
+### Option B: install it yourself
+
+1. Download the zip from the **Files** tab of the addon's [CurseForge page](https://www.curseforge.com/wow/addons/confirm-buff-removal) and unzip it. (Or download this repository with **Code > Download ZIP**.)
 2. Copy the `ConfirmBuffRemoval` folder into `World of Warcraft\_forever_\Interface\AddOns\`.
-3. Restart the game, or type `/reload` if it is already running.
+3. Fully restart the game. Typing `/reload` is not enough for a newly installed addon.
 
 There are no settings and no saved data.
 

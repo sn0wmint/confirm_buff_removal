@@ -1,5 +1,6 @@
-# Local editor settings
+# Local editor and assistant settings
 .vscode/
+.claude/
 
 # Release zips made for uploading
 *.zip
